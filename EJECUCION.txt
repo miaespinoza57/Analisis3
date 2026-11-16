@@ -1,0 +1,180 @@
+##########################################################
+CORRIDA 1
+##########################################################
+Entrada simulada
+Nombre: Aria
+Clase: 2 (Mago)
+Equipamiento: 1,3,5 (Espada, Veneno, Bendición)
+Enemigo: 1 (Goblin)
+
+Salida en consola
+Héroe: Aria (base) + Espada + Veneno + Bendición
+ATK: 40 | DEF: 12 | VEL: 17 | HP: 100
+Enemigo: Goblin salvaje | HP: 60
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Aria (base) + Espada + Veneno + Bendición usa AtaqueHechizo sobre Goblin salvaje
+  Daño: 40 | Efecto: hechizo + veneno
+  Goblin salvaje HP: 60 -> 20
+Goblin salvaje usa AtaquePunalada sobre Aria
+  Daño: 1 | Efecto: puñalada
+  Aria HP: 100 -> 99
+
+--- TURNO 2 ---
+Aria (base) + Espada + Veneno + Bendición usa AtaqueHechizo sobre Goblin salvaje
+  Daño: 43 | Efecto: hechizo + veneno (DOT +3)
+  Goblin salvaje HP: 20 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Aria (base) + Espada + Veneno + Bendición (HP restante: 99)
+
+
+##########################################################
+CORRIDA 2
+##########################################################
+Entrada simulada
+Nombre: Thorin
+Clase: 1 (Guerrero)
+Equipamiento: 2,4,1 (Armadura, Amuleto de regeneración, Espada)
+Enemigo: 2 (Orco)
+
+Salida en consola
+Héroe: Thorin (base) + Armadura + Amuleto de Regeneración + Espada
+ATK: 35 | DEF: 26 | VEL: 10 | HP: 120
+Enemigo: Orco brutal | HP: 110
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Thorin (base) + Armadura + Amuleto de Regeneración + Espada usa AtaqueEspada sobre Orco brutal
+  Daño: 25 | Efecto: espada
+  Orco brutal HP: 110 -> 85
+Orco brutal usa AtaqueEspada sobre Thorin
+  Daño: 1 | Efecto: espada
+  Thorin HP: 120 -> 119
+
+--- TURNO 2 ---
+Thorin (base) + Armadura + Amuleto de Regeneración + Espada usa AtaqueEspada sobre Orco brutal
+  Daño: 25 | Efecto: espada + regeneración (+1 HP)
+  Orco brutal HP: 85 -> 60
+Orco brutal usa AtaqueEspada sobre Thorin
+  Daño: 1 | Efecto: espada
+  Thorin HP: 120 -> 119
+
+--- TURNO 3 ---
+Thorin (base) + Armadura + Amuleto de Regeneración + Espada usa AtaqueEspada sobre Orco brutal
+  Daño: 38 (¡CRÍTICO!) | Efecto: espada + regeneración (+1 HP)
+  Orco brutal HP: 60 -> 22
+Orco brutal usa AtaqueEspada sobre Thorin
+  Daño: 2 (¡CRÍTICO!) | Efecto: espada
+  Thorin HP: 120 -> 118
+
+--- TURNO 4 ---
+Thorin (base) + Armadura + Amuleto de Regeneración + Espada usa AtaqueEspada sobre Orco brutal
+  Daño: 25 | Efecto: espada + regeneración (+2 HP)
+  Orco brutal HP: 22 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Thorin (base) + Armadura + Amuleto de Regeneración + Espada (HP restante: 120)
+
+
+##########################################################
+CORRIDA 3
+##########################################################
+Entrada simulada
+Nombre: Legolas
+Clase: 3 (Arquero)
+Equipamiento: 3,5,2,4 (Veneno, Bendición, Armadura, Amuleto de regeneración)
+Enemigo: 3 (Dragón)
+
+Salida en consola
+Héroe: Legolas (base) + Veneno + Bendición + Armadura + Amuleto de Regeneración
+ATK: 31 | DEF: 20 | VEL: 21 | HP: 90
+Enemigo: Dragón ancestral | HP: 150
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Legolas (base) + Veneno + Bendición + Armadura + Amuleto de Regeneración usa AtaqueFlecha sobre Dragón ancestral
+  Daño: 36 (¡CRÍTICO!) | Efecto: flecha + veneno
+  Dragón ancestral HP: 150 -> 114
+Dragón ancestral usa AtaqueHechizo sobre Legolas
+  Daño: 20 | Efecto: hechizo
+  Legolas HP: 90 -> 70
+
+--- TURNO 2 ---
+Legolas (base) + Veneno + Bendición + Armadura + Amuleto de Regeneración usa AtaqueFlecha sobre Dragón ancestral
+  Daño: 39 (¡CRÍTICO!) | Efecto: flecha + veneno (DOT +3) + regeneración (+2 HP)
+  Dragón ancestral HP: 114 -> 75
+Dragón ancestral usa AtaqueHechizo sobre Legolas
+  Daño: 20 | Efecto: hechizo
+  Legolas HP: 72 -> 52
+
+--- TURNO 3 ---
+Legolas (base) + Veneno + Bendición + Armadura + Amuleto de Regeneración usa AtaqueFlecha sobre Dragón ancestral
+  Daño: 39 (¡CRÍTICO!) | Efecto: flecha + veneno (DOT +3) + regeneración (+2 HP)
+  Dragón ancestral HP: 75 -> 36
+Dragón ancestral usa AtaqueHechizo sobre Legolas
+  Daño: 20 | Efecto: hechizo
+  Legolas HP: 54 -> 34
+
+--- TURNO 4 ---
+Legolas (base) + Veneno + Bendición + Armadura + Amuleto de Regeneración usa AtaqueFlecha sobre Dragón ancestral
+  Daño: 39 (¡CRÍTICO!) | Efecto: flecha + veneno (DOT +3) + regeneración (+2 HP)
+  Dragón ancestral HP: 36 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Legolas (base) + Veneno + Bendición + Armadura + Amuleto de Regeneración (HP restante: 36)
+
+
+##########################################################
+CORRIDA 4
+##########################################################
+Entrada simulada
+Nombre: Sombra
+Clase: 4 (Pícaro)
+Equipamiento: 1,3,4 (Espada, Veneno, Amuleto de regeneración)
+Enemigo: 2 (Orco)
+
+Salida en consola
+Héroe: Sombra (base) + Espada + Veneno + Amuleto de Regeneración
+ATK: 35 | DEF: 10 | VEL: 20 | HP: 85
+Enemigo: Orco brutal | HP: 110
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Sombra (base) + Espada + Veneno + Amuleto de Regeneración usa AtaquePunalada sobre Orco brutal
+  Daño: 25 | Efecto: puñalada + veneno
+  Orco brutal HP: 110 -> 85
+Orco brutal usa AtaqueEspada sobre Sombra
+  Daño: 12 | Efecto: espada
+  Sombra HP: 85 -> 73
+
+--- TURNO 2 ---
+Sombra (base) + Espada + Veneno + Amuleto de Regeneración usa AtaquePunalada sobre Orco brutal
+  Daño: 53 (¡CRÍTICO!) | Efecto: puñalada + veneno (DOT +3) + regeneración (+2 HP)
+  Orco brutal HP: 85 -> 32
+Orco brutal usa AtaqueEspada sobre Sombra
+  Daño: 12 | Efecto: espada
+  Sombra HP: 75 -> 63
+
+--- TURNO 3 ---
+Sombra (base) + Espada + Veneno + Amuleto de Regeneración usa AtaquePunalada sobre Orco brutal
+  Daño: 28 | Efecto: puñalada + veneno (DOT +3) + regeneración (+2 HP)
+  Orco brutal HP: 32 -> 4
+Orco brutal usa AtaqueEspada sobre Sombra
+  Daño: 18 (¡CRÍTICO!) | Efecto: espada
+  Sombra HP: 65 -> 47
+
+--- TURNO 4 ---
+Sombra (base) + Espada + Veneno + Amuleto de Regeneración usa AtaquePunalada sobre Orco brutal
+  Daño: 53 (¡CRÍTICO!) | Efecto: puñalada + veneno (DOT +3) + regeneración (+2 HP)
+  Orco brutal HP: 4 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Sombra (base) + Espada + Veneno + Amuleto de Regeneración (HP restante: 49)
+
+
